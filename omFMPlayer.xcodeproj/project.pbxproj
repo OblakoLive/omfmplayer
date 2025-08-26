@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A917632D2E5DB11400CEC83B /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A917632C2E5DB11400CEC83B /* RadioPlayer.swift */; };
+		A91763312E5DC5BD00CEC83B /* ArtworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91763302E5DC5BD00CEC83B /* ArtworkService.swift */; };
+		A91763332E5DCE2700CEC83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91763322E5DCE2700CEC83B /* Assets.xcassets */; };
+		A91BBDAC2E5E06D5006099F7 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BBDAB2E5E06D5006099F7 /* CreditsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A917630E2E5D946100CEC83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91762F82E5D946000CEC83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91762FF2E5D946000CEC83B;
+			remoteInfo = omFMPlayer;
+		};
+		A91763182E5D946100CEC83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91762F82E5D946000CEC83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91762FF2E5D946000CEC83B;
+			remoteInfo = omFMPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A91763002E5D946000CEC83B /* omFMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omFMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A917630D2E5D946100CEC83B /* omFMPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omFMPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91763172E5D946100CEC83B /* omFMPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omFMPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A917632C2E5DB11400CEC83B /* RadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		A91763302E5DC5BD00CEC83B /* ArtworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkService.swift; sourceTree = "<group>"; };
+		A91763322E5DCE2700CEC83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91BBDAB2E5E06D5006099F7 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A917632B2E5DA94A00CEC83B /* Exceptions for "omFMPlayer" folder in "omFMPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A91762FF2E5D946000CEC83B /* omFMPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A91763022E5D946000CEC83B /* omFMPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A917632B2E5DA94A00CEC83B /* Exceptions for "omFMPlayer" folder in "omFMPlayer" target */,
+			);
+			path = omFMPlayer;
+			sourceTree = "<group>";
+		};
+		A91763102E5D946100CEC83B /* omFMPlayerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = omFMPlayerTests;
+			sourceTree = "<group>";
+		};
+		A917631A2E5D946100CEC83B /* omFMPlayerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = omFMPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91762FD2E5D946000CEC83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917630A2E5D946100CEC83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91763142E5D946100CEC83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91762F72E5D946000CEC83B = {
+			isa = PBXGroup;
+			children = (
+				A91BBDAB2E5E06D5006099F7 /* CreditsView.swift */,
+				A91763322E5DCE2700CEC83B /* Assets.xcassets */,
+				A91763302E5DC5BD00CEC83B /* ArtworkService.swift */,
+				A917632C2E5DB11400CEC83B /* RadioPlayer.swift */,
+				A91763022E5D946000CEC83B /* omFMPlayer */,
+				A91763102E5D946100CEC83B /* omFMPlayerTests */,
+				A917631A2E5D946100CEC83B /* omFMPlayerUITests */,
+				A91763012E5D946000CEC83B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91763012E5D946000CEC83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91763002E5D946000CEC83B /* omFMPlayer.app */,
+				A917630D2E5D946100CEC83B /* omFMPlayerTests.xctest */,
+				A91763172E5D946100CEC83B /* omFMPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91762FF2E5D946000CEC83B /* omFMPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91763212E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayer" */;
+			buildPhases = (
+				A91762FC2E5D946000CEC83B /* Sources */,
+				A91762FD2E5D946000CEC83B /* Frameworks */,
+				A91762FE2E5D946000CEC83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A91763022E5D946000CEC83B /* omFMPlayer */,
+			);
+			name = omFMPlayer;
+			packageProductDependencies = (
+			);
+			productName = omFMPlayer;
+			productReference = A91763002E5D946000CEC83B /* omFMPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A917630C2E5D946100CEC83B /* omFMPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91763242E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayerTests" */;
+			buildPhases = (
+				A91763092E5D946100CEC83B /* Sources */,
+				A917630A2E5D946100CEC83B /* Frameworks */,
+				A917630B2E5D946100CEC83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A917630F2E5D946100CEC83B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A91763102E5D946100CEC83B /* omFMPlayerTests */,
+			);
+			name = omFMPlayerTests;
+			packageProductDependencies = (
+			);
+			productName = omFMPlayerTests;
+			productReference = A917630D2E5D946100CEC83B /* omFMPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91763162E5D946100CEC83B /* omFMPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91763272E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayerUITests" */;
+			buildPhases = (
+				A91763132E5D946100CEC83B /* Sources */,
+				A91763142E5D946100CEC83B /* Frameworks */,
+				A91763152E5D946100CEC83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91763192E5D946100CEC83B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A917631A2E5D946100CEC83B /* omFMPlayerUITests */,
+			);
+			name = omFMPlayerUITests;
+			packageProductDependencies = (
+			);
+			productName = omFMPlayerUITests;
+			productReference = A91763172E5D946100CEC83B /* omFMPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91762F82E5D946000CEC83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A91762FF2E5D946000CEC83B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A917630C2E5D946100CEC83B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A91762FF2E5D946000CEC83B;
+					};
+					A91763162E5D946100CEC83B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A91762FF2E5D946000CEC83B;
+					};
+				};
+			};
+			buildConfigurationList = A91762FB2E5D946000CEC83B /* Build configuration list for PBXProject "omFMPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91762F72E5D946000CEC83B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A91763012E5D946000CEC83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91762FF2E5D946000CEC83B /* omFMPlayer */,
+				A917630C2E5D946100CEC83B /* omFMPlayerTests */,
+				A91763162E5D946100CEC83B /* omFMPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91762FE2E5D946000CEC83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91763332E5DCE2700CEC83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917630B2E5D946100CEC83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91763152E5D946100CEC83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91762FC2E5D946000CEC83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917632D2E5DB11400CEC83B /* RadioPlayer.swift in Sources */,
+				A91BBDAC2E5E06D5006099F7 /* CreditsView.swift in Sources */,
+				A91763312E5DC5BD00CEC83B /* ArtworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91763092E5D946100CEC83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91763132E5D946100CEC83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A917630F2E5D946100CEC83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91762FF2E5D946000CEC83B /* omFMPlayer */;
+			targetProxy = A917630E2E5D946100CEC83B /* PBXContainerItemProxy */;
+		};
+		A91763192E5D946100CEC83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91762FF2E5D946000CEC83B /* omFMPlayer */;
+			targetProxy = A91763182E5D946100CEC83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A917631F2E5D946100CEC83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A91763202E5D946100CEC83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91763222E5D946100CEC83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = omFMPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91763232E5D946100CEC83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = omFMPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A91763252E5D946100CEC83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omFMPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omFMPlayer";
+			};
+			name = Debug;
+		};
+		A91763262E5D946100CEC83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omFMPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omFMPlayer";
+			};
+			name = Release;
+		};
+		A91763282E5D946100CEC83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omFMPlayer;
+			};
+			name = Debug;
+		};
+		A91763292E5D946100CEC83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J87T5Q6F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nautilus.omFMPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omFMPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91762FB2E5D946000CEC83B /* Build configuration list for PBXProject "omFMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A917631F2E5D946100CEC83B /* Debug */,
+				A91763202E5D946100CEC83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91763212E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91763222E5D946100CEC83B /* Debug */,
+				A91763232E5D946100CEC83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91763242E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91763252E5D946100CEC83B /* Debug */,
+				A91763262E5D946100CEC83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91763272E5D946100CEC83B /* Build configuration list for PBXNativeTarget "omFMPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91763282E5D946100CEC83B /* Debug */,
+				A91763292E5D946100CEC83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91762F82E5D946000CEC83B /* Project object */;
+}

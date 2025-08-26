@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods (если появятся)
+Pods/
+
+# Артефакты
+*.ipa
+*.dSYM.zip
