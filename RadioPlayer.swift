@@ -57,7 +57,7 @@ final class RadioPlayer: NSObject, ObservableObject {
     func play() {
         do {
             let s = AVAudioSession.sharedInstance()
-            try s.setCategory(.playback, mode: .default, options: [.allowBluetooth, .allowAirPlay])
+            try s.setCategory(.playback, mode: .default, options: [.allowBluetoothHFP, .allowAirPlay])
             try s.setActive(true)
         } catch {
             print("AudioSession error:", error)
@@ -367,4 +367,3 @@ extension RadioPlayer: AVPlayerItemMetadataOutputPushDelegate {
         for g in groups { processMetadataItems(g.items) }
     }
 }
-
