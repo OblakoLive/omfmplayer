@@ -25,6 +25,13 @@ extension Station {
             colors: [.red.opacity(0.5), .black]
         ),
         .init(
+            id: "ashes",
+            title: "Ashes",
+            url: URL(string: "https://radio.omfm.ru/hls/ashes/live.m3u8")!,
+            subtitle: "southern gothic, dark folk, western",
+            colors: [.brown.opacity(0.5), .black]
+        ),
+        .init(
             id: "coma",
             title: "Coma",
             url: URL(string: "https://radio.omfm.ru/hls/coma/live.m3u8")!,
