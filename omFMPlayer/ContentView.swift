@@ -27,6 +27,8 @@ struct ContentView: View {
         case "core":   return "station_core"
         case "chill":  return "station_chill"
         case "cdp":    return "station_cdp"
+        case "ashes":  return "station_ashes"
+        case "noir":   return "station_noir"
         default:       return nil
         }
     }
