@@ -35,7 +35,7 @@ extension Station {
             id: "terra",
             title: "Terra",
             url: URL(string: "https://radio.omfm.ru/hls/terra/live.m3u8")!,
-            subtitle: "nature, world, calm",
+            subtitle: "Nature, music of the Earth",
             colors: [.green.opacity(0.5), .black]
         ),
         .init(
@@ -49,16 +49,22 @@ extension Station {
             id: "chill",
             title: "Chill",
             url: URL(string: "https://radio.omfm.ru/hls/chill/live.m3u8")!,
-            subtitle: "lofi, chill, relax",
+            subtitle: "future garage, chillstep, ambient",
             colors: [.blue.opacity(0.5), .black]
         ),
         .init(
             id: "cdp",
-            title: "CDP",
+            title: "Café de Paris",
             url: URL(string: "https://hls.omfm.ru/cdp/cdp.m3u8")!,
-            subtitle: "classical deep pieces",
+            subtitle: "jazz, chanson, Parisian spirit",
             colors: [.orange.opacity(0.5), .black]
+        ),
+        .init(
+            id: "noir",
+            title: "Noir",
+            url: URL(string: "https://radio.omfm.ru/hls/noir/live.m3u8")!,
+            subtitle: "Dark Jazz, Noir Jazz, Funeral",
+            colors: [.gray.opacity(0.5), .black]
         )
     ]
 }
-
