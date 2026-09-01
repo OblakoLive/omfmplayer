@@ -9,8 +9,7 @@ struct Contributor: Identifiable, Hashable {
 }
 
 private let coreTeam: [Contributor] = [
-    .init(name: "s", role: "owner", link: URL(string: "https://omfm.ru"), imageName: nil),
-    .init(name: "gAlleb", role: "co-owner", link: URL(string: "https://github.com/galleb/nuxt-om"), imageName: nil),
+    .init(name: "gAlleb (s)", role: "owner", link: URL(string: "https://github.com/galleb/nuxt-om"), imageName: nil),
     .init(name: "NAUTILUS (oblakolive)", role: "iOS приложение", link: URL(string: "https://oblakolive.ru"), imageName: nil),
     .init(name: "Мы в IRC", role: "#omFM #usue at ircs://ircnet.ru:6689", link: nil, imageName: nil),
 ]
