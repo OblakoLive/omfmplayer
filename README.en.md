@@ -43,6 +43,7 @@ Stream URLs are configured in `Station.swift` and currently include:
 |---|---|
 | omFM Main | `https://hls.omfm.ru/omfm/stream.m3u8` |
 | Rock | `https://radio.omfm.ru/hls/radio/live.m3u8` |
+| Ashes | `https://radio.omfm.ru/hls/ashes/live.m3u8` |
 | Coma | `https://radio.omfm.ru/hls/coma/live.m3u8` |
 | Terra | `https://radio.omfm.ru/hls/terra/live.m3u8` |
 | Core | `https://radio.omfm.ru/hls/core/live.m3u8` |
@@ -58,7 +59,7 @@ Station images are stored in `Assets.xcassets` using the corresponding image-set
 
 Current bundled station artwork includes `station_main`, `station_rock`, `station_coma`, `station_terra`, `station_core`, `station_chill`, and `station_cdp`.
 
-No separate Noir station artwork is bundled yet; the Noir card uses the built-in fallback UI rather than an invented image.
+No separate Ashes or Noir station artwork is bundled yet; those cards use the built-in fallback UI rather than invented images.
 
 ## Track artwork
 
