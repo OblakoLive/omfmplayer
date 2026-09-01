@@ -37,11 +37,28 @@ Then in Xcode:
 
 ## Streams
 
-Stream URLs are configured in `Station.swift`.
+Stream URLs are configured in `Station.swift` and currently include:
+
+| Station | HLS stream |
+|---|---|
+| omFM Main | `https://hls.omfm.ru/omfm/stream.m3u8` |
+| Rock | `https://radio.omfm.ru/hls/radio/live.m3u8` |
+| Coma | `https://radio.omfm.ru/hls/coma/live.m3u8` |
+| Terra | `https://radio.omfm.ru/hls/terra/live.m3u8` |
+| Core | `https://radio.omfm.ru/hls/core/live.m3u8` |
+| Chill | `https://radio.omfm.ru/hls/chill/live.m3u8` |
+| Café de Paris | `https://hls.omfm.ru/cdp/cdp.m3u8` |
+| Noir | `https://radio.omfm.ru/hls/noir/live.m3u8` |
+
+The stream list and URLs were synchronized with the current stream list published on omFM.ru.
 
 ## Station artwork
 
 Station images are stored in `Assets.xcassets` using the corresponding image-set names. Replace the images while keeping the existing names if you want to change the station artwork.
+
+Current bundled station artwork includes `station_main`, `station_rock`, `station_coma`, `station_terra`, `station_core`, `station_chill`, and `station_cdp`.
+
+No separate Noir station artwork is bundled yet; the Noir card uses the built-in fallback UI rather than an invented image.
 
 ## Track artwork
 
