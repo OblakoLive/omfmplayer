@@ -41,12 +41,13 @@ open omFMPlayer.xcodeproj
 
 ```swift
 enum Station: CaseIterable {
-    case stream, rock, coma, terra, core, chill, cdp, noir
+    case stream, rock, ashes, coma, terra, core, chill, cdp, noir
 
     var url: URL {
         switch self {
         case .stream: return URL(string: "https://hls.omfm.ru/omfm/stream.m3u8")!
         case .rock:   return URL(string: "https://radio.omfm.ru/hls/radio/live.m3u8")!
+        case .ashes:  return URL(string: "https://radio.omfm.ru/hls/ashes/live.m3u8")!
         case .coma:   return URL(string: "https://radio.omfm.ru/hls/coma/live.m3u8")!
         case .terra:  return URL(string: "https://radio.omfm.ru/hls/terra/live.m3u8")!
         case .core:   return URL(string: "https://radio.omfm.ru/hls/core/live.m3u8")!
@@ -62,6 +63,7 @@ enum Station: CaseIterable {
 
 * **omFM Main** — meditative, mantras, instrumental
 * **Rock** — heavy stuff and more
+* **Ashes** — southern gothic, dark folk, western
 * **Coma** — ambient, drone, field recordings
 * **Terra** — Nature, music of the Earth
 * **Core** — deathcore, metalcore, hardcore
@@ -81,7 +83,7 @@ enum Station: CaseIterable {
 * `station_chill`
 * `station_cdp`
 
-Для Noir отдельная картинка пока не добавлена: карточка использует встроенный fallback UI. Это сделано намеренно, чтобы не подставлять выдуманное или неподтверждённое изображение станции.
+Для Ashes и Noir отдельные картинки пока не добавлены: карточки используют встроенный fallback UI. Это сделано намеренно, чтобы не подставлять выдуманное или неподтверждённое изображение станции.
 
 ## Обложка трека
 
@@ -150,7 +152,7 @@ MIT — см. файл `LICENSE`.
 ## Быстрый FAQ
 
 **Ошибка при запуске на iPhone 6s:**  
-`A build only device cannot be used to run this target`  
+`A build only device can be used to run this target`  
 Причина: Xcode 16 не запускает проект на iOS 15 как на отладочном устройстве.  
 Решения:
 - Использовать Xcode 15.x для запуска на 6s
