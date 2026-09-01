@@ -22,11 +22,13 @@ struct ContentView: View {
         switch station.id {
         case "stream": return "station_main"
         case "rock":   return "station_rock"
+        case "ashes":  return "station_ashes"
         case "coma":   return "station_coma"
         case "terra":  return "station_terra"
         case "core":   return "station_core"
         case "chill":  return "station_chill"
         case "cdp":    return "station_cdp"
+        case "noir":   return "station_noir"
         default:       return nil
         }
     }
@@ -215,4 +217,3 @@ struct MiniPlayerView: View {
         .padding(.bottom, 12)
     }
 }
-
