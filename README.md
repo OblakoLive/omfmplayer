@@ -1,4 +1,3 @@
-````markdown
 # omFMPlayer iOS
 
 Нативный iOS-плеер для HLS-радио omFM. SwiftUI, AVPlayer, iOS 15+.
@@ -10,7 +9,7 @@
 git clone https://github.com/Oblakolive/omfmplayer.git
 cd omfmplayer
 open omFMPlayer.xcodeproj
-````
+```
 
 Дальше в Xcode:
 
@@ -38,25 +37,39 @@ open omFMPlayer.xcodeproj
 
 ## Стримы
 
-Адреса редактируются в `Station.swift`. Сейчас так:
+Адреса редактируются в `Station.swift`. Актуальные HLS-адреса соответствуют списку потоков на omFM.ru:
 
 ```swift
 enum Station: CaseIterable {
-    case stream, rock, coma, terra, core, chill, cdp
+    case stream, rock, ashes, coma, terra, core, chill, cdp, noir
 
     var url: URL {
         switch self {
         case .stream: return URL(string: "https://hls.omfm.ru/omfm/stream.m3u8")!
         case .rock:   return URL(string: "https://radio.omfm.ru/hls/radio/live.m3u8")!
+        case .ashes:  return URL(string: "https://radio.omfm.ru/hls/ashes/live.m3u8")!
         case .coma:   return URL(string: "https://radio.omfm.ru/hls/coma/live.m3u8")!
         case .terra:  return URL(string: "https://radio.omfm.ru/hls/terra/live.m3u8")!
         case .core:   return URL(string: "https://radio.omfm.ru/hls/core/live.m3u8")!
         case .chill:  return URL(string: "https://radio.omfm.ru/hls/chill/live.m3u8")!
         case .cdp:    return URL(string: "https://hls.omfm.ru/cdp/cdp.m3u8")!
+        case .noir:   return URL(string: "https://radio.omfm.ru/hls/noir/live.m3u8")!
         }
     }
 }
 ```
+
+### Станции
+
+* **omFM Main** — meditative, mantras, instrumental
+* **Rock** — heavy stuff and more
+* **Ashes** — southern gothic, dark folk, western
+* **Coma** — ambient, drone, field recordings
+* **Terra** — Nature, music of the Earth
+* **Core** — deathcore, metalcore, hardcore
+* **Chill** — future garage, chillstep, ambient
+* **Café de Paris** — jazz, chanson, Parisian spirit
+* **Noir** — Dark Jazz, Noir Jazz, Funeral
 
 ## Картинки станций
 
@@ -70,7 +83,7 @@ enum Station: CaseIterable {
 * `station_chill`
 * `station_cdp`
 
-Хочешь заменить — просто перетащи новые JPG/PNG с такими же именами в соответствующие image set’ы.
+Для Ashes и Noir отдельные картинки пока не добавлены: карточки используют встроенный fallback UI. Это сделано намеренно, чтобы не подставлять выдуманное или неподтверждённое изображение станции.
 
 ## Обложка трека
 
@@ -82,7 +95,7 @@ enum Station: CaseIterable {
 
 ## AirPlay
 
-Кнопка AirPlay — это обёртка над `MPVolumeView`. В `ContentView.swift` есть `AirPlayButton` (UIViewRepresentable). Ничего настраивать не нужно.
+Кнопка AirPlay — это обёртка над `MPVolumeView`. Ничего настраивать не нужно.
 
 ## Фон и гарнитуры
 
@@ -136,11 +149,10 @@ MIT — см. файл `LICENSE`.
 * Автор/координатор: **oblakolive**
 * Вкладчики/дизайн/музыка — см. экран **Credits** внутри приложения.
 
-```
 ## Быстрый FAQ
 
 **Ошибка при запуске на iPhone 6s:**  
-`A build only device cannot be used to run this target`  
+`A build only device can be used to run this target`  
 Причина: Xcode 16 не запускает проект на iOS 15 как на отладочном устройстве.  
 Решения:
 - Использовать Xcode 15.x для запуска на 6s
