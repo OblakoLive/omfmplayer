@@ -221,6 +221,9 @@ final class RadioPlayer: NSObject, ObservableObject {
         case "terra":  return UIImage(named: "station_terra")
         case "chill":  return UIImage(named: "station_chill")
         case "cdp":    return UIImage(named: "station_cdp")
+        case "ashes":  return UIImage(named: "station_ashes")
+        case "noir":   return UIImage(named: "station_noir")
+        case "386":    return UIImage(named: "station_386")
         default:       return nil
         }
     }

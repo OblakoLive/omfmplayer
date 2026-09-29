@@ -69,9 +69,16 @@ extension Station {
         .init(
             id: "noir",
             title: "Noir",
-            url: URL(string: "https://radio.omfm.ru/hls/noir/live.m3u8")!,
+            url: URL(string: "https://hls.386.su/noir/noir.m3u8")!,
             subtitle: "Dark Jazz, Noir Jazz, Funeral",
             colors: [.gray.opacity(0.5), .black]
+        ),
+        .init(
+            id: "386",
+            title: "386 by xff",
+            url: URL(string: "https://hls.386.su/386/386.m3u8")!,
+            subtitle: "EBM, Synthpop, Dark Ambient",
+            colors: [.green.opacity(0.5), .black]
         )
     ]
 }
