@@ -75,7 +75,7 @@ extension Station {
         ),
         .init(
             id: "386",
-            title: "386",
+            title: "386 by xff",
             url: URL(string: "https://hls.386.su/386/386.m3u8")!,
             subtitle: "EBM, Synthpop, Dark Ambient",
             colors: [.green.opacity(0.5), .black]

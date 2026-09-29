@@ -49,7 +49,8 @@ Stream URLs are configured in `Station.swift` and currently include:
 | Core | `https://radio.omfm.ru/hls/core/live.m3u8` |
 | Chill | `https://radio.omfm.ru/hls/chill/live.m3u8` |
 | Café de Paris | `https://hls.omfm.ru/cdp/cdp.m3u8` |
-| Noir | `https://radio.omfm.ru/hls/noir/live.m3u8` |
+| Noir | `https://hls.386.su/noir/noir.m3u8` |
+| 386 by xff | `https://hls.386.su/386/386.m3u8` |
 
 The stream list and URLs were synchronized with the current stream list published on omFM.ru.
 
@@ -57,9 +58,7 @@ The stream list and URLs were synchronized with the current stream list publishe
 
 Station images are stored in `Assets.xcassets` using the corresponding image-set names. Replace the images while keeping the existing names if you want to change the station artwork.
 
-Current bundled station artwork includes `station_main`, `station_rock`, `station_coma`, `station_terra`, `station_core`, `station_chill`, and `station_cdp`.
-
-No separate Ashes or Noir station artwork is bundled yet; those cards use the built-in fallback UI rather than invented images.
+Current bundled station artwork includes `station_main`, `station_rock`, `station_coma`, `station_terra`, `station_core`, `station_chill`, `station_cdp`, `station_ashes`, `station_noir`, and `station_386`.
 
 ## Track artwork
 

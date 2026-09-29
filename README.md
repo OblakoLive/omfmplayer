@@ -41,7 +41,7 @@ open omFMPlayer.xcodeproj
 
 ```swift
 enum Station: CaseIterable {
-    case stream, rock, ashes, coma, terra, core, chill, cdp, noir
+    case stream, rock, ashes, coma, terra, core, chill, cdp, noir, r386
 
     var url: URL {
         switch self {
@@ -53,7 +53,8 @@ enum Station: CaseIterable {
         case .core:   return URL(string: "https://radio.omfm.ru/hls/core/live.m3u8")!
         case .chill:  return URL(string: "https://radio.omfm.ru/hls/chill/live.m3u8")!
         case .cdp:    return URL(string: "https://hls.omfm.ru/cdp/cdp.m3u8")!
-        case .noir:   return URL(string: "https://radio.omfm.ru/hls/noir/live.m3u8")!
+        case .noir:   return URL(string: "https://hls.386.su/noir/noir.m3u8")!
+        case .r386:   return URL(string: "https://hls.386.su/386/386.m3u8")!
         }
     }
 }
@@ -70,6 +71,7 @@ enum Station: CaseIterable {
 * **Chill** — future garage, chillstep, ambient
 * **Café de Paris** — jazz, chanson, Parisian spirit
 * **Noir** — Dark Jazz, Noir Jazz, Funeral
+* **386 by xff** — EBM, Synthpop, Dark Ambient
 
 ## Картинки станций
 
@@ -82,8 +84,9 @@ enum Station: CaseIterable {
 * `station_core`
 * `station_chill`
 * `station_cdp`
-
-Для Ashes и Noir отдельные картинки пока не добавлены: карточки используют встроенный fallback UI. Это сделано намеренно, чтобы не подставлять выдуманное или неподтверждённое изображение станции.
+* `station_ashes`
+* `station_noir`
+* `station_386`
 
 ## Обложка трека
 
